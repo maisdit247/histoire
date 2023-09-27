@@ -1,0 +1,1219 @@
+html{
+    scroll-behavior: smooth;
+    scrollbar-color:  rgb(32, 134, 7) grey;
+}
+::-webkit-scrollbar{
+    background-color: rgb(74, 74, 74);
+    width:5px;  
+    height:7px;  
+}
+
+::-webkit-scrollbar-thumb{
+    position: absolute;
+    background-color: rgb(125, 125, 125);
+    border-radius: 20%;
+}
+::-webkit-scrollbar-corner {
+    background: rgb(74, 74, 74);
+}
+body{
+    margin: 0; 
+}
+
+#nav{
+    color: #FFD300;
+    position:absolute;
+    width: 1366px;
+    height: 768px;
+    margin-top: -33px;
+    padding-bottom: 33px;
+}
+
+
+#result{
+    top: 50px;
+    background-color: #33135c;
+    position: fixed;
+    width: 200px;
+    height: 50px;
+}
+#img1{
+    position:absolute;
+    width:100%;
+    height:100%;  
+}
+#site{
+    font-size:0px;
+    color:rgb(75, 201, 255);
+}
+#site:hover{
+    cursor: crosshair;
+}
+#alula{
+    position:absolute;
+	background-color:#e6c619;
+	left:780px;
+	top:390px;
+	height:5px;
+	width:3px;
+}
+#alula:hover{
+    color:#e6c619;
+    transition: 0.5s;
+    font-size: 20px;
+}
+#ajanta{
+    position:absolute;
+	background:#e6c619;
+	left:923px;
+	top:416px;
+	height:2px;
+	width:5px;
+}
+#ajanta:hover{
+    color: #e6c619;
+    transition: 0.5s;
+    font-size: 20px;
+}
+#altun{
+    position:absolute;
+	left:300px;
+	top:422px;
+	width: 0px;
+    height: 1px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: transparent transparent  rgb(75, 201, 255) transparent;
+}
+#altun:hover{
+    transition: 0.5s;
+    font-size: 20px;
+}
+#angkorwat{
+	position:absolute;
+	left:1027px;
+	top:446px;
+    background-color: #e6c619;
+    width: 5px;
+    height: 2px;
+}
+#angkorwat:hover{
+    color: #e6c619;
+    transition: 0.5s;
+    font-size: 20px;
+}
+#babylone{
+	position:absolute;
+	background:#e6c619;
+	left:805px;
+	top:367px;
+	height:2px;
+	width:5px;
+
+}
+#babylone:hover{
+    color:#e6c619;
+    transition: 0.5s;
+    font-size: 20px;
+}
+#barabar{
+    position:absolute;
+	background-color:#e6c619;
+	left:959px;
+	top:397px;
+	height:2px;
+	width:5px;
+}
+#barabar:hover{
+    color: #e6c619;
+    transition: 0.5s;
+    font-size: 20px;
+}
+#bimini{
+    position:absolute;
+	background-color:#e6c619;
+	left:335px;
+	top:395px;
+	height:2px;
+	width:5px;
+}
+#bimini:hover{
+    color: #e6c619;
+    transition: 0.5s;
+    font-size: 20px;
+}
+#caracol{
+	position:absolute;
+	left:296px;
+	top:426px;
+	border-style: solid;
+    border-width: 4px;
+    border-color: transparent transparent  rgb(75, 201, 255) transparent;
+    width: 0px;
+    height: 1px;
+}
+#caracol:hover{
+    transition: 0.5s;
+    font-size: 20px;
+}
+#caral{
+	position:absolute;
+	left:339px;
+	top:535px;
+	border-style: solid;
+    border-width: 4px;
+    border-color: transparent transparent  rgb(75, 201, 255) transparent;
+    width: 0px;
+    height: 1px;
+}
+#caral:hover{
+    transition: 0.5s;
+    font-size: 20px;
+}
+#cestius{
+    position:absolute;
+	left:681px;
+	top:318px;
+	border-style: solid;
+    border-width: 4px;
+    border-color: transparent transparent  rgb(75, 201, 255) transparent;
+    width: 0px;
+    height: 1px;
+}
+#cestius:hover{
+    transition: 0.5s;
+    font-size: 20px;
+}
+#chavin{
+	position:absolute;
+	left:341px;
+	top:533px;
+	border-style: solid;
+    border-width: 4px;
+    border-color: transparent transparent  rgb(75, 201, 255) transparent;
+    width: 0px;
+    height: 1px;
+}
+#chavin:hover{
+    transition: 0.5s;
+    font-size: 20px;
+}
+#chichen{
+	position:absolute;
+	left:298px;
+	top:410px;
+	border-style: solid;
+    border-width: 4px;
+    border-color: transparent transparent  rgb(75, 201, 255) transparent;
+    width: 0px;
+    height: 1px;
+}
+#chichen:hover{
+    transition: 0.5s;
+    font-size: 20px;
+}
+#cholula{
+	position:absolute;
+	left:262px;
+	top:417px;
+	border-style: solid;
+    border-width: 4px;
+    border-color: transparent transparent  rgb(75, 201, 255) transparent;
+    width: 0px;
+    height: 1px;
+}
+#cholula:hover{
+    transition: 0.5s;
+    font-size: 20px;
+}
+#cinqrathas{
+    position:absolute;
+	background:#e6c619;
+	left:938px;
+	top:450px;
+	height:2px;
+	width:5px;
+}
+#cinqrathas:hover{
+    color: #e6c619;
+    transition: 0.5s;
+    font-size: 20px;
+}
+#coba{
+	position:absolute;
+	left:302px;
+	top:411px;
+	border-style: solid;
+    border-width: 4px;
+    border-color: transparent transparent  rgb(75, 201, 255) transparent;
+    width: 0px;
+    height: 1px;
+}
+#coba:hover{
+    transition: 0.5s;
+    font-size: 20px;
+}
+#copan{
+    z-index: 1;
+	position:absolute;
+	background:#e6c619;
+	left:298px;
+	top:439px;
+    width: 3px;
+    height: 5px;
+}
+#copan:hover{
+    color:#e6c619;
+    transition: 0.5s;
+    font-size: 20px;
+}
+#cuicuilco{
+    background:#e6c619;
+	position: absolute;
+    width: 3px;
+    height: 5px;
+    left:260px;
+    top:421px;
+  
+}
+#cuicuilco:hover{
+    color: #e6c619;
+    transition: 0.5s;
+    font-size: 20px;
+}
+#cuzco{
+	position:absolute;
+	background:#e6c619;
+	left:363px;
+	top:550px;
+	height:2px;
+	width:5px;
+}
+#cuzco:hover{
+    color:#e6c619;
+    transition: 0.5s;
+    font-size: 20px;
+}
+#dalavanur{
+    position:absolute;
+	background:#e6c619;
+	left:935px;
+	top:452px;
+	height:2px;
+	width:5px;
+}
+#dalavanur:hover{
+    color:#e6c619;
+    transition: 0.5s;
+    font-size: 20px;
+}
+#deogarh{
+    position:absolute;
+	background:#e6c619;
+	left:932px;
+	top:398px;
+	height:2px;
+	width:5px; 
+}
+#deogarh:hover{
+    color:#e6c619;
+    transition: 0.5s;
+    font-size: 20px;
+}
+#dholavira{
+    position:absolute;
+	background:#e6c619;
+	left:902px;
+	top:404px;
+	height:2px;
+	width:5px; 
+}
+#dholavira:hover{
+    color:#e6c619;
+    transition: 0.5s;
+    font-size: 20px;
+}
+#dzibilchaltun{
+    z-index: 1;
+	position:absolute;
+	background:#e6c619;
+	left:297px;
+	top:413px;
+	height:5px;
+	width:3px;
+}
+#dzibilchaltun:hover{
+    color:#e6c619;
+    transition: 0.5s;
+    font-size: 20px;
+}
+#elrey{
+	position:absolute;
+	background:#e6c619;
+	left:307px;
+	top:415px;
+	height:2px;
+	width:5px;
+}
+#elrey:hover{
+    color:#e6c619;
+    transition: 0.5s;
+    font-size: 20px;
+}
+#eltazumal{
+    width: 0px;
+    height: 1px;
+	position:absolute;
+	left:293px;
+	top:438px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: transparent transparent  rgb(75, 201, 255) transparent;
+}
+#eltazumal:hover{ 
+    font-size: 20px;
+    transition:0.5s;
+}
+#gizeh{
+    position: absolute;
+    width: 0px;
+    height: 1px;
+    left:750px;
+    top:369px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: transparent transparent  rgb(75, 201, 255) transparent;
+}
+#gizeh:hover{ 
+    font-size: 20px;
+    transition:0.5s;
+}
+
+#gobeklitepe{
+    position:absolute;
+	background:#e6c619;
+	left:777px;
+	top:346px;
+	height:2px;
+	width:5px;
+}
+#gobeklitepe:hover{
+    color:#e6c619;
+    transition: 0.5s;
+    font-size: 20px;
+}
+#gochang{
+    position:absolute;
+	background:yellowgreen;
+	left:1117px;
+	top:352px;
+	height:5px;
+	width:2px;
+	font-size:0px;
+}
+#gochang:hover{
+    color:yellowgreen;
+    transition: 0.5s;
+    font-size: 20px;
+}
+#gornaya{
+    position:absolute;
+	background-color:greenyellow;
+	left:970px;
+	top:268px;
+	height:4px;
+	width:4px;
+    border-radius: 25%;
+}
+#gornaya:hover{
+    color: greenyellow;
+    transition: 0.5s;
+    font-size: 20px;
+}
+#hampi{
+    position:absolute;
+	background:#e6c619;
+	left:925px;
+	top:436px;
+	height:2px;
+	width:5px;
+	font-size:0px;
+}
+#hampi:hover{
+    color:#e6c619;
+    transition: 0.5s;
+    font-size: 20px;
+}
+#idp{
+    position: absolute;
+    background-color: #ff5e00;
+    width: 2px;
+    height: 5px;
+    left:222px;
+    top:609px;
+}
+#idp:hover{
+    color:#ff5e00;
+    transition: 0.5s;
+    font-size: 20px;
+}
+#ingapirca{
+    position:absolute;
+	background-color: #e6c619;
+	left:337px;
+	top:509px;
+	height:2px;
+	width:5px;
+	font-size:0px;
+}
+#ingapirca:hover{
+    color:#e6c619;
+    transition: 0.5s;
+    font-size: 20px;
+}
+#karajia{
+	position:absolute;
+    background-color: #ff5e00;
+	left:340px;
+	top:523px;
+	height:5px;
+	width:2px;
+	font-size:0px;
+}
+#karajia:hover{
+    color:#ff5e00;
+    transition: 0.5s;
+    font-size: 20px;
+}
+#karyamukti{
+    position: absolute;
+    width: 0px;
+    height: 1px;
+    left:1040px;
+    top:520px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: transparent transparent  rgb(75, 201, 255) transparent;
+}
+#karyamukti:hover{
+    transition: 0.5s;
+    font-size: 20px;
+}
+#khajuraho{
+	position:absolute;
+	background:#e6c619;
+	left:943px;
+	top:398px;
+	height:2px;
+	width:5px;
+	font-size:0px;
+}
+#khajuraho:hover{
+    color:#e6c619;
+    transition: 0.5s;
+    font-size: 20px;
+}
+#konarak{
+    position:absolute;
+	background-color:#e6c619;
+	left:958px;
+	top:421px;
+	height:2px;
+	width:5px;
+	font-size:0px;
+}
+#konarak:hover{
+    color: #e6c619;
+    transition: 0.5s;
+    font-size: 20px;
+}
+#laventa{
+	position:absolute;
+    background-color: #ff5e00;
+	left:281px;
+	top:426px;
+	height:5px;
+	width:2px;
+	font-size:0px;
+}	
+#laventa:hover{
+    color:#ff5e00;
+    transition: 0.5s;
+    font-size: 20px;
+}
+#machupicchu{
+    z-index: 1;
+	position:absolute;
+	background:#e6c619;
+	left:358px;
+	top:548px;
+	height:2px;
+	width:5px;
+	font-size:0px;
+}
+#machupicchu:hover{
+    color:#e6c619;
+    transition: 0.5s;
+    font-size: 20px;
+}
+#malte{
+    position:absolute;
+	background:#e6c619;
+	left:690px;
+	top:351px;
+	height:2px;
+	width:5px;
+	font-size:0px;
+}
+#malte:hover{
+    color:#e6c619;
+    transition: 0.5s;
+    font-size: 20px;
+}
+#mayapan{
+	position:absolute;
+	background:#e6c619;
+	left:298px;
+	top:419px;
+	height:3px;
+	width:5px;
+	font-size:0px;
+}
+#mayapan:hover{
+    color:#e6c619;
+    transition: 0.5s;
+    font-size: 20px;
+}
+#mecque{
+    position:absolute;
+	background:#cb5aff;;
+	left:786px;
+	top:413px;
+	height:4px;
+	width:4px;
+	font-size:0px;
+}
+#mecque:hover{
+    color:#cb5aff;
+    transition: 0.5s;
+    font-size: 20px;
+}
+#meidoum{
+    position: absolute;
+    width: 0px;
+    height: 1px;
+    left:750px;
+    top:372px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: transparent transparent  rgb(75, 201, 255) transparent;
+}
+#meidoum:hover{
+    transition: 0.5s;
+    font-size: 20px;
+}
+#meroe{
+    position: absolute;
+    width: 0px;
+    height: 1px;
+    left:760px;
+    top:422px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: transparent transparent  rgb(75, 201, 255) transparent;
+}
+#meroe:hover{
+    transition: 0.5s;
+    font-size: 20px;
+}
+#mohenjodaro{
+	position:absolute;
+	background:#e6c619;
+	left:890px;
+	top:392px;
+	height:2px;
+	width:5px;
+	font-size:0px;
+}
+#mohenjodaro:hover{
+    color:#e6c619;
+    transition: 0.5s;
+    font-size: 20px;
+}
+#montealban{
+	position:absolute;
+	left:268px;
+	top:425px;
+    width: 0px;
+    height: 1px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: transparent transparent  rgb(75, 201, 255) transparent;
+	font-size:0px;
+}
+#montealban:hover{
+    transition: 0.5s;
+    font-size: 20px;
+}
+#nakum{
+	position:absolute;
+    width: 0px;
+    height: 1px;
+	left:295px;
+	top:423px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: transparent transparent  rgb(75, 201, 255) transparent;
+	font-size:0px;
+}
+#nakum:hover{
+    transition: 0.5s;
+    font-size: 20px;
+}
+#nazcalines{
+    z-index: 1;
+	position:absolute;
+	background:#e6c619;
+	left:348px;
+	top:557px;
+	height:2px;
+	width:6px;
+	font-size:0px;
+}
+#nazcalines:hover{
+    color:#e6c619;
+    transition: 0.5s;
+    font-size: 20px;
+}
+#ollantaytambo{
+    z-index: 1;
+	position:absolute;
+	background:#e6c619;
+	left:361px;
+	top:549px;
+	height:2px;
+	width:5px;
+	font-size:0px;
+}
+#ollantaytambo:hover{
+    color:#e6c619;
+    transition: 0.5s;
+    font-size: 20px;
+}
+#palenque{
+	position:absolute;
+	background:#e6c619;
+	left:285px;
+	top:428px;
+	height:3px;
+	width:5px;
+	font-size:0px;
+}
+#palenque:hover{
+    color: #e6c619;
+    transition: 0.5s;
+    font-size: 20px;
+}
+#paratoari{
+    z-index: 1;
+	position:absolute;
+	left:364px;
+	top:541px;
+    width: 0px;
+    height: 1px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: transparent transparent  rgb(75, 201, 255) transparent;
+}
+#paratoari:hover{
+    transition: 0.5s;
+    font-size: 20px;
+}
+#petra{
+	position:absolute;
+	background:#e6c619;
+	left:771px;
+	top:375px;
+	height:2px;
+	width:5px;
+	font-size:0px;
+}
+#petra:hover{
+    color: #e6c619;
+    transition: 0.5s;
+    font-size: 20px;
+}
+#persepolis{
+	position:absolute;
+	background:#e6c619;
+	left:835px;
+	top:377px;
+	height:2px;
+	width:5px;
+	font-size:0px;
+}
+#persepolis:hover{
+    color:#e6c619;
+    transition: 0.5s;
+    font-size: 20px;
+}
+#petra:hover{
+    color:#e6c619;
+    transition: 0.5s;
+    font-size: 20px;
+}
+#phrapathomchedi{
+	position:absolute;
+	background-color: #e6c619;
+	left:1014.5px;
+	top: 444.5px;
+	height:2px;
+	width:5px;
+	font-size:0px;
+}
+#phrapathomchedi:hover{
+    color:#e6c619;
+    transition: 0.5s;
+    font-size: 20px;
+}
+#pyay{
+	position:absolute;
+	background:#e6c619;;
+	left:996px;
+	top:413px;
+	height:2px;
+	width:5px;
+	font-size:0px;
+}
+#pyay:hover{
+    color:#e6c619;
+    transition: 0.5s;
+    font-size: 20px;
+}
+#preahvihear{
+	position:absolute;
+	background:#e6c619;
+	left:1032px;
+	top:443px;
+	height:2px;
+	width:5px;
+	font-size:0px;
+}
+#preahvihear:hover{
+    color:#e6c619;
+    transition: 0.5s;
+    font-size: 20px;
+}
+#quirigua{
+	position:absolute;
+	background:#e6c619;
+	left:298px;
+	top:438px;
+	height:2px;
+	width:5px;
+	border-radius:50%;
+	font-size:0px;
+}
+#quirigua:hover{
+    color:#e6c619;
+    transition: 0.5s;
+    font-size: 20px;
+}
+#rajajil{
+    position:absolute;
+	background:#ff5e00;
+	left:788px;
+	top:378px;
+	height:4px;
+	width:4px;
+	border-radius:50%;
+}
+#rajajil:hover{
+    color:#ff5e00;
+    transition: 0.5s;
+    font-size: 20px;
+}
+
+#roknia{
+    position:absolute;
+	background:yellowgreen;
+	left:664px;
+	top:348px;
+	height:5px;
+	width:2px;
+}
+#roknia:hover{
+    color:greenyellow;
+    transition: 0.5s;
+    font-size: 20px;
+}
+#sanagustin{
+    position:absolute;
+	background:#ff5e00;
+	left:347.5px;
+	top:490px;
+	height:5px;
+	width:2px;
+}
+#sanagustin:hover{
+    color:#ff5e00;
+    transition: 0.5s;
+    font-size: 20px;
+}
+#saqqarah{
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    left:753px;
+    top:372px;
+    border-style: solid;
+    border-width: 2.5px;
+    border-color: transparent transparent  rgb(56, 142, 180) transparent;
+}
+#saqqarah:hover{
+    transition: 0.5s;
+    font-size: 20px;
+}
+#siwa{
+	position:absolute;
+	background:#e6c619;
+	left:732px;
+	top:380px;
+	height:2px;
+	width:5px;
+}
+#siwa:hover{
+    color:#e6c619;
+    transition: 0.5s;
+    font-size: 20px;
+}
+#sukhothai{
+	position:absolute;
+	background-color: #e6c619;
+	left:1013px;
+	top: 431px;
+	height:2px;
+	width:5px;
+}
+#sukhothai:hover{
+    color:#e6c619;
+    transition: 0.5s;
+    font-size: 20px;
+}
+#tassili{
+	position:absolute;
+	background:#ff5e00;
+	left:667px;
+	top:394px;
+	height:4px;
+	width:4px;
+	border-radius:50%;
+}
+#tassili:hover{
+    color:#ff5e00;
+    transition: 0.5s;
+    font-size: 20px;
+}
+#teotihuacan{
+	position: absolute;
+    width: 0px;
+    height: 1px;
+    left:260px;
+    top:412px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: transparent transparent  rgb(75, 201, 255) transparent;
+}
+#teotihuacan:hover{
+    transition: 0.5s;
+    font-size: 20px;
+}
+#thap{
+    position:absolute;
+	background:#e6c619;
+	left:1048px;
+	top:440px;
+	height:5px;
+	width:2px;
+}
+#thap:hover{
+    color:#e6c619;
+    transition: 0.5s;
+    font-size: 20px;
+}
+#ur{
+	position:absolute;
+	background:#e6c619;
+	left:810px;
+	top:372px;
+	height:2px;
+	width:5px;
+}
+#ur:hover{
+    color:#e6c619;
+    transition: 0.5s;
+    font-size: 20px;
+}
+#treszapotes{
+	position:absolute;
+    background-color: #ff5e00;
+	left:275px;
+	top:424px;
+	height:5px;
+	width:2px;
+}	
+#treszapotes:hover{
+    color:#ff5e00;
+    transition: 0.5s;
+    font-size: 20px;
+}
+#uxmal{
+	position:absolute;
+	left:293px;
+	top:413px;
+	border-style: solid;
+    border-width: 4px;
+    border-color: transparent transparent  rgb(75, 201, 255) transparent;
+    width: 0px;
+    height: 1px;
+}
+#uxmal:hover{
+    transition: 0.5s;
+    font-size: 20px;
+}
+#yonaguni{
+    position:absolute;
+	background-color:greenyellow;
+	left:1101px;
+	top:400px;
+	height:4px;
+	width:4px;
+    border-radius: 25%;
+}
+#yonaguni:hover{
+    color: greenyellow;
+    transition: 0.5s;
+    font-size: 20px;
+}
+#zakuleu{
+	position:absolute;
+	left:288px;
+	top:431px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: transparent transparent  rgb(75, 201, 255) transparent;
+    width: 0px;
+    height: 1px;
+}
+#zakuleu:hover{
+    transition: 0.5s;
+    font-size: 20px;
+}
+
+
+
+
+#decrigizeh{
+    display: none;
+    cursor:auto;
+    opacity: 0.9;
+    color: rgb(68, 255, 252);
+    line-height: 1.5em;
+    font-size: 14px;
+    position: absolute;
+    background-color:rgb(30, 30, 30);
+    width: 200px;
+    height: 350px;
+    border-bottom-left-radius: 10%;
+    border-top-right-radius: 5%;
+    border: 1px solid rgb(75, 201, 255);
+    box-shadow: 0px 0px 25px darkblue;
+    animation: neon 10s alternate infinite;
+    top: -190px;
+}
+@keyframes neon {
+    0%{ box-shadow: 0px 0px 25px darkblue;}
+    10%{ box-shadow: 0px 0px 32px darkblue;}
+    32%{ box-shadow: 0px 0px 20px darkblue;}
+    70%{box-shadow: 0px 0px 10px darkblue;}
+    68%{box-shadow: 0px 0px 30px darkblue;}
+    74%{box-shadow: 0px 0px 22px darkblue;}
+    91%{box-shadow: 0px 0px 18px darkblue;}
+    92%{box-shadow: 0px 0px 15px darkblue;}    
+}
+a{
+    color: rgb(68, 255, 252);
+}
+#structure{ 
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    left: 20px;
+    width: 150px;
+    height: 50px;
+}
+#imggizeh{
+    position: relative;
+    top: 10px;
+    width: 160px;
+    height: 120px;
+}
+#imggizeh2{
+    z-index: 1;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: -250px;
+    left: 250px;
+    border-radius:5%;
+    border: 1px solid rgb(75, 201, 255);
+    box-shadow: 0px 0px 25px darkblue;
+}
+
+#imggizeh2:hover{
+    width: 700px;
+    height: 550px;
+    left:-250px;
+    top: -250px;
+    transition: 0.5s;
+}
+#imggizeh3{
+    position: absolute;
+    width: 350px;
+    height: 330px;
+    top:-230px;
+    left: -400px;
+    border-radius:2%;
+    transition: 0.5s;
+    border: 1px solid rgb(75, 201, 255);
+    box-shadow: 0px 0px 25px darkblue;
+}
+#imggizeh3:hover{
+    z-index: 1;
+    width: 380px;
+    height: 400px;
+}
+#imggizeh4{
+    position: absolute;
+    width: 150px;
+    height: 130px;
+    top:150px;
+    left: -300px;
+    border-radius:2%;
+    transition: 0.5s;
+    border: 1px solid rgb(75, 201, 255);
+    box-shadow: 0px 0px 25px darkblue;
+}
+#imggizeh4:hover{
+    z-index: 1;
+    left: -350px;
+    top: -200px;
+    width: 420px;
+    height: 400px;
+}
+#imggizeh5{
+    position: absolute;
+    width: 350px;
+    height: 230px;
+    top:80px;
+    left: 230px;
+    border-radius:2%;
+    transition: 0.5s;
+    border: 1px solid rgb(75, 201, 255);
+    box-shadow: 0px 0px 25px darkblue;
+}
+#imggizeh5:hover{
+    z-index: 1;
+    width: 700px;
+    height: 500px;
+    left: -200px;
+    top: -200px;
+}
+
+#date{
+    position: relative;
+    top: 20px;
+}
+#liaison1{
+    background-color: rgb(75, 201, 255);
+    position: absolute;
+    width: 2px;
+    height: 90px;
+    top: -200px;
+    box-shadow: 0px 0px 35px darkblue;
+
+}
+#liaison1::after{
+    background-color: rgb(75, 201, 255);
+    box-shadow: 0px 0px 35px darkblue;
+    content: " ";
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    left: -49px;
+}
+#liaison2{
+    position: absolute;
+    background-color: rgb(75, 201, 255);
+    width: 129px;
+    height: 2px;
+    top: 200px;
+    left: -149px;
+    box-shadow: 0px 0px 35px darkblue;
+}
+#liaison3{
+    position: absolute;
+    background-color: rgb(75, 201, 255);
+    width: 70px;
+    height: 2px;
+    top: 30px;
+    left: 180px;
+    box-shadow: 0px 0px 35px darkblue;
+}
+#liaison4{
+    position: absolute;
+    background-color: rgb(75, 201, 255);
+    width: 50px;
+    height: 2px;
+    top: 90px;
+    left: 180px;
+    box-shadow: 0px 0px 35px darkblue;
+}
+
+#kheopsidp{
+    position: absolute;
+    height: 578px;
+    width: 1px;
+    background-color: red;
+    top: 205px;
+    left:488px;
+    transform: rotate(66deg);
+    color: red;
+    border-radius: 100%;
+    
+
+}
+#kidp{
+    font-size: 0px;
+    text-align: left;
+    position: absolute;
+    top: 288px;
+    left: -288px;
+    height: 2px;
+    width: 578px;
+    transform: rotate(-90deg);
+}
+#kidp:hover{
+    font-size: 30px;
+}
+
+
+#frise{
+    left: 155px;
+    position: absolute;
+    top: 790px;
+    background-color: white;
+    width: 1080px;
+    height: 2px;
+}
+
